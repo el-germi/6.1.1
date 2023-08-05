@@ -1,0 +1,50 @@
+body {
+    background-color: beige;
+    font-size: large;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#banner {
+    margin-top: 0;
+    margin-left: 0;
+    background-image: url("img.jpg");
+    color: white;
+    padding: 1vh 0 1vh 3.5vw;
+}
+
+#pfp {
+    float: left;
+    height: 30vmin;
+    border-radius: 1vmin;
+    margin-right: 5vmin;
+}
+
+.border {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.border * {
+    border: 2px solid black;
+}
+
+.pop:hover {
+    font-size: xx-large;
+}
+
+.pop {
+    transition: font-size .5s ease-out 75ms;
+}
+
+table tr:nth-child(odd) td {
+    background-color: lightcyan;
+}
+
+table tr:nth-child(even) td {
+    background-color: lightblue;
+}
+
+/*
+El código CSS debe contener al menos 3 selectores que hagan referencia a clases
+*/
